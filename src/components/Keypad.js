@@ -2,6 +2,6 @@ import React, {Component} from 'react';
 
 
 export default class Keypad extends Component {
-  typing = () =>
+  typing = () => {console.log('Entering password...')};
   <input type="password" />
 }
